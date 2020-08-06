@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+
+.container-dua{
+	max-width: 1100px;
+	margin: 20px auto;
+
+}
+.card {
+	
+	width: 250px;
+	float:left;
+	transition: all 0.5s;
+}
+
+img {
+	width: 300px;
+	height: 150px;
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+@media all and (max-width: 670px) {
+  .card {
+    width: 95%;
+  }
+  
